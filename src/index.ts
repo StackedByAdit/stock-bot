@@ -99,12 +99,6 @@ async function checkStock() {
 
 console.log("Stock bot started...");
 
-await bot.sendMessage(
-  CHAT_ID,
-  "✅ Telegram notifications are working"
-);
-
-
 await checkStock();
 
 setInterval(checkStock, 60 * 1000);
