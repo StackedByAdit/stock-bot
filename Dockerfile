@@ -10,4 +10,4 @@ COPY . .
 
 RUN bunx playwright install chromium
 
-CMD ["bun", "run", "index.ts"]
+CMD ["bun", "run", "src/index.ts"]
