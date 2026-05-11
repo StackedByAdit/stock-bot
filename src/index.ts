@@ -80,7 +80,7 @@ async function checkStock() {
 
         await bot.sendMessage(
           CHAT_ID,
-          `🚨 Twistura D-Minor is BACK IN STOCK!\n${PRODUCT_URL}`
+          `🚨 Hurray! Twistura D-Minor is BACK IN STOCK!\n${PRODUCT_URL}`
         );
 
         console.log("Telegram alert sent");
