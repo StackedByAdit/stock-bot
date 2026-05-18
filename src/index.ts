@@ -99,6 +99,8 @@ async function checkStock() {
 
 console.log("Stock bot started...");
 
+//deploy
+
 await checkStock();
 
 setInterval(checkStock, 60 * 1000);
